@@ -8,5 +8,11 @@
 </head>
 <body>
     <h1>About Us</h1>
+
+    <nav>
+            <li><a href="http://localhost/project/index.php">Home</a></li>
+            <li><a href="http://localhost/project/index.php/contact">contact us</a></li>
+            <li><a href="http://localhost/project/index.php/about/culture">culture</a></li>
+        </nav>
 </body>
 </html>

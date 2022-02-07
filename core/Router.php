@@ -4,6 +4,17 @@ class Router {
 
     protected $routes = [];
 
+    public static function load($file)
+    {
+        
+        $router = new static;
+
+        require $file;
+
+        return $router;
+
+    }
+
     public function define($routes)
     {
 
@@ -19,7 +30,7 @@ class Router {
             return $this->routes[$uri];
 
         }
-        throw new Exception('Banana');
+        throw new Exception('Rota não encontrada!');
 
     }
 

@@ -19,8 +19,9 @@
 <body>
 
         <nav>
-            <li><a href="http://localhost/Estudos/PHP/project/controllers/about.php">about</a></li>
-            <li><a href="http://localhost/Estudos/PHP/project/controllers/contact.php">contact us</a></li>
+            <li><a href="http://localhost/project/index.php/about">about</a></li>
+            <li><a href="http://localhost/project/index.php/contact">contact us</a></li>
+            <li><a href="http://localhost/project/index.php/about/culture">culture</a></li>
         </nav>
     
     <ul>
